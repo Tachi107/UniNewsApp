@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="90dp"
     android:orientation="horizontal"
-    android:background="@drawable/list_item_border">
+    >
 
     <androidx.cardview.widget.CardView
         android:layout_width="60dp"
@@ -48,7 +48,7 @@
                 android:textSize="15sp"
                 app:layout_constraintStart_toEndOf="@+id/lesion_image"
                 app:layout_constraintTop_toTopOf="parent"
-                android:fontFamily="@font/poppins_medium"/>
+                />
 
             <TextView
                 android:id="@+id/result_text"
@@ -61,7 +61,7 @@
                 android:textSize="14sp"
                 app:layout_constraintStart_toEndOf="@+id/lesion_image"
                 app:layout_constraintTop_toTopOf="parent"
-                android:fontFamily="@font/poppins"/>
+                />
 
             <TextView
                 android:id="@+id/result_date"
@@ -74,7 +74,7 @@
                 android:textSize="12sp"
                 app:layout_constraintStart_toEndOf="@+id/lesion_image"
                 app:layout_constraintTop_toTopOf="parent"
-                android:fontFamily="@font/poppins"/>
+                />
 
         </LinearLayout>
 
